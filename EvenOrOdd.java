@@ -13,4 +13,11 @@ public class EvenOrOdd {
         else
             return false;
     }
+
+    public static void main(String[] args) {
+        System.out.println(isEven(12));
+        System.out.println(isOdd(45));
+        System.out.println(isEven(75));
+        System.out.println(isOdd(44));
+    }
 }
