@@ -1,17 +1,11 @@
 public class EvenOrOdd {
 
     public static boolean isEven(int num) {
-        if (num % 2 == 0)
-            return true;
-        else
-            return false;
+        return num % 2 == 0;
     }
 
     public static boolean isOdd(int num) {
-        if (num % 2 != 0)
-            return true;
-        else
-            return false;
+        return !isEven(num);
     }
 
     public static void main(String[] args) {
